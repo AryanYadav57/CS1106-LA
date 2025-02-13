@@ -1,0 +1,14 @@
+1) how do you change the mode from edit to read only?
+    esc(button)
+2) how do you(a)save the file, and (b) close the file, while you're editing?
+   a) :wq
+   b) q!
+3) how do you delete (a) letter (b) word (c) sentence?
+   a)x
+   b)dw
+   c)dd/d$
+4) you're editing the document( in edit mode). Explain how you'll replace one word with another?
+
+
+
+#3) Replace all the instances of the word the, with thee  
