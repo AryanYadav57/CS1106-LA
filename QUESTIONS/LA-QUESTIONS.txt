@@ -1,0 +1,16 @@
+activity LA
+Backup to a Pendrive
+Note: DO NOT RUN the script. Just write the script 
+and upload to github
+
+Write a single shells script which does the following:
+1. Create the folder /tmp/Backup
+2. Copy all the c and python program files (.c and .py files) into the above folder.
+3. Navigate to /tmp folder.
+4. Use the tar command to compress the Backup folder into a gz compressed tar archive name Backup-2025-03-28.tar.gz
+5. Mount your pendrive using usdiskctl command.
+(assume your pendrive is connected to the PC)
+6. Move the archive Backup-2025-03-28.tar.gz to pendrive.
+(assume that the pendrive is mounted at /media/RVU/Pendrive
+7. Unmount the pendrive.
+8. Delete the backup folder
